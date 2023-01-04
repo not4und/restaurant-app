@@ -44,8 +44,8 @@ This is restaurant web application with basic functional such as:
 `POST` /add `JSON`  
 `PUT` /update  
 #### /tables
-`POST` /add `JSON` name  
-`PUT` /update/{id} `JSON` name  
+`POST` /add `JSON` {name}  
+`PUT` /update/{id} `JSON` {name}  
 ## Project structure
 ### Levels
 `DAO` Data access layer - access to the database (Hibernate API)  
